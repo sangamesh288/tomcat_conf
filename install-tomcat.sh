@@ -4,8 +4,8 @@ sudo yum install -y java wget git
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.102/bin/apache-tomcat-9.0.102.tar.gz
 sudo tar xvzf apache-tomcat-9.*
 sudo git clone https://github.com/sangamesh288/tomcat_conf.git
-sudo cp /tomcat_conf/context.xml /apache-tomcat-9.*/webapps/manager/META-INF/context.xml
-sudo cp /tomcat_conf/context.xml /apache-tomcat-9.*/webapps/host-manager/META-INF/context.xml
-sudo cp /tomcat_conf/tomcat-users.xml /apache-tomcat-9.*/conf/tomcat-users.xml
-cd /apache-tomcat-9.*
-sudo sh bin/startup.sh
+sudo cp /context.xml /apache-tomcat-9.0.102/webapps/manager/META-INF/context.xml
+sudo cp /context.xml /apache-tomcat-9.0.102/webapps/host-manager/META-INF/context.xml
+sudo cp /tomcat-users.xml /apache-tomcat-9.0.102/conf/tomcat-users.xml
+cd /apache-tomcat-9.0.102
+sudo sh /bin/startup.sh
