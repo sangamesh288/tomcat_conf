@@ -8,5 +8,4 @@ sudo git clone https://github.com/sangamesh288/tomcat_conf.git
 sudo cp /tomcat_conf/context.xml /home/ec2-user/apache-tomcat-9.*/webapps/manager/META-INF/context.xml
 sudo cp /tomcat_conf/context.xml /home/ec2-user/apache-tomcat-9.*/webapps/host-manager/META-INF/context.xml
 sudo cp /tomcat_conf/tomcat-users.xml /home/ec2-user/apache-tomcat-9.*/conf/tomcat-users.xml
-cd /home/ec2-user/apache-tomcat-9.*
 sudo sh bin/startup.sh
