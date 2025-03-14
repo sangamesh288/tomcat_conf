@@ -10,6 +10,6 @@ sudo git clone https://github.com/sangamesh288/tomcat_conf.git
 sudo cp /tomcat_conf/context.xml /opt/apache-tomcat-9.*/webapps/manager/META-INF/context.xml
 sudo cp /tomcat_conf/context.xml /opt/apache-tomcat-9.*/webapps/host-manager/META-INF/context.xml
 sudo cp /tomcat_conf/tomcat-users.xml /opt/apache-tomcat-9.*/conf/tomcat-users.xml
-sudo rm -rf tomcat-config
+sudo rm -rf tomcat_conf
 cd /opt/apache-tomcat-9.*
 sudo sh bin/startup.sh
